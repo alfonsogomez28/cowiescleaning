@@ -1,9 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.navbar {
+  background: transparent !important;
+}
 .navbar-brand {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: #DFA626;
+    padding-left: .5rem;
   }
 
   .navbar-nav {
     margin-left: auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+  }
+
+  .nav-item.ml-3 {
+    margin-left: 1rem !important;
+  }
+
+  .navbar-toggler {
+    border: none;
+    display: flex;
   }

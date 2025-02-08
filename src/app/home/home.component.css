@@ -1,0 +1,24 @@
+.display-4 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Custom class to adjust the image size */
+.custom-img-size {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 1000px; /* Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+.jumbotron.jumbotron-fluid {
+  background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0') no-repeat center center;
+  background-size: cover;
+  color: #efefef;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

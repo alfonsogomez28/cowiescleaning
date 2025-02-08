@@ -1,0 +1,23 @@
+/* Style for the Instagram icon */
+.fab.fa-instagram {
+  color: #E4405F; /* Instagram's brand color */
+  font-size: 3rem; /* Adjust the size as needed */
+  margin-right: 10px; /* Add some space to the right */
+}
+
+/* Additional styles for hover effect */
+.fab.fa-instagram:hover {
+  color: #C13584; /* Darker shade for hover effect */
+}
+
+/* Style for the Facebook icon */
+.fab.fa-facebook {
+    color: #3b5998; /* Facebook's brand color */
+    font-size: 3rem; /* Adjust the size as needed */
+    margin-right: 10px; /* Add some space to the right */
+  }
+  
+  /* Additional styles for hover effect */
+  .fab.fa-facebook:hover {
+    color: #2d4373; /* Darker shade for hover effect */
+  }
