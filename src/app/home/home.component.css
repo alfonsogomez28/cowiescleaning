@@ -18,7 +18,16 @@
 .img-fluid {
   width: 300px;
   height: 200px;
+  border-radius: 10px;
+  border-color:honeydew;
+  border-width: 1px;
+  border-style: solid;
 }
+
+#header-spacing {
+  margin-top: 10px;
+}
+
 /* Custom class to adjust the image size */
 .custom-img-size {
     width: 100%; /* Adjust the width as needed */
@@ -29,10 +38,28 @@
 .jumbotron.jumbotron-fluid {
   background: url('/assets/images/backdrop.jpg') no-repeat center center;
   background-size: cover;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: honeydew;
   color:white;
   height: 300px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#button {
+  background-color: #DFA626;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
